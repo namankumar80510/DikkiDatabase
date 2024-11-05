@@ -1,0 +1,24 @@
+{
+    "name": "dikki/database",
+    "description": "An experimental and simple NoSQL database written in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naman Kumar",
+            "email": "namankumar80510@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPNoSQL\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.3"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

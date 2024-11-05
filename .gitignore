@@ -1,0 +1,6 @@
+database/
+perftest_db/
+vendor/
+node_modukes/
+composer.lock
+.env
